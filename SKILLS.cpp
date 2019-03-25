@@ -20,10 +20,10 @@ int main(){
     const double SavingBonds = 0.25;
     const double ParentsContribution = 0.50;
     
-    cout << "How many hours did you work:"<<endl;
+    cout << "what is your hours of working?:"<<endl;
     cin >> hoursWorked;
     
-    cout << "What was the hourly rate:"<<"$"<<endl;
+    cout << "What is your hourly rate?:"<<"$"<<endl;
     cin >> payRate;
     
     grossIncome = hoursWorked * payRate;
