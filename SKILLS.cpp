@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <conio.h>
 #include <iomanip>
@@ -10,7 +11,7 @@ int main(){
 	double netIncome;
 	double schoolAmount; 
 	double bondsAmount;
-    	double clothesAmount;
+    double clothesAmount;
 	double parentsBondsAmount; 
 	double hoursWorked;
     
@@ -34,7 +35,7 @@ int main(){
     bondsAmount = netIncome * SavingBonds;
     parentsBondsAmount = bondsAmount * ParentsContribution;
     
-    cout << fixed << showpoint << setprecision(2);
+    cout << setprecision(2)<<fixed<<endl;
 	cout<< "============================================= \n";    
     cout << "Gross Income: $" << grossIncome << endl;
     cout<< "============================================= \n";   
