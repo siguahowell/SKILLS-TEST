@@ -10,7 +10,9 @@ int main(){
 	double netIncome;
 	double schoolAmount; 
 	double bondsAmount;
-    double clothesAmount, parentsBondsAmount, hoursWorked;
+    	double clothesAmount;
+	double parentsBondsAmount; 
+	double hoursWorked;
     
     const double TaxRate = 0.14;
     const double ClothesPercentageOfIncome = 0.10;
